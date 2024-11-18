@@ -58,6 +58,15 @@ void printSolution(const vector<vector<int>> &dist, int vertices, ofstream &outp
 {
     for (int i = 0; i < vertices; ++i)
     {
+        if (outputFile.is_open())
+        {
+            outputFile << "Distâncias dos vértices em relação a " << i + 1 << ":\n";
+        }
+        else
+        {
+            printf("Distâncias dos vértices em relação a %i:\n", i + 1);
+        }
+
         for (int j = 0; j < vertices; ++j)
         {
             int distance = dist[i][j] == INT_MAX ? -1 : dist[i][j]; // -1 para distâncias infinitas
@@ -75,11 +84,11 @@ void printSolution(const vector<vector<int>> &dist, int vertices, ofstream &outp
 
         if (outputFile.is_open())
         {
-            outputFile << endl;
+            outputFile << "\n\n";
         }
         else
         {
-            printf("\n");
+            printf("\n\n");
         }
     }
 
