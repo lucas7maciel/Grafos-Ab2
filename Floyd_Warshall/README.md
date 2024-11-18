@@ -17,6 +17,12 @@ Para executar os arquivos de teste (contidos em `inputs/`), basta executar o arq
 ./testInputs.sh
 ```
 
+* Caso esteja utilizando o WSL, talvez seja necessário instalar o `dos2unix` para executar o arquivo de teste
+```
+sudo apt-get install dos2unix
+dos2unix testInputs.sh
+```
+
 ## Opções de uso
 O usuario pode escolher as seguintes opcoes atraves do terminal:
 - -f <arquivo> : Faz a leitura dos inputs utilizados a partir do arquivo informado
