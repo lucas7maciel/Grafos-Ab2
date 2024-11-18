@@ -1,7 +1,6 @@
 # Execute este arquivo para testar os inputs dentro da pasta inputs/
 floyd=./floyd_warshall.bin
 
-make clean;
 make;
 
 echo "Testando algoritmo de Floyd"
