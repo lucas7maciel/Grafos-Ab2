@@ -12,6 +12,11 @@ Com o binário `floyd_warshall.bin` criado, basta executá-lo pelo terminal. As 
 ./floyd_warshall.bin <args>
 ```
 
+Para executar os arquivos de teste (contidos em `inputs/`), basta executar o arquivo `testInputs.h` que todas os outputs serão armazenados em `outputs/`
+```
+./testInputs.sh
+```
+
 ## Opções de uso
 O usuario pode escolher as seguintes opcoes atraves do terminal:
 - -f <arquivo> : Faz a leitura dos inputs utilizados a partir do arquivo informado
