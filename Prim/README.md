@@ -4,7 +4,7 @@ Esta aplicacao e destinada a resolver o problema da Arvore Geradora Minima utili
 ## Como executar
 O algoritmo possui uma `Makefile` destinada a construir o executável do algoritmo, para isto, basta utilizar o seguinte comando:
 ```
-make # Linux/macOs
+make #Linux/macOs
 ```
 
 Com o binário `prim.bin` criado, basta executá-lo pelo terminal. As instruções de uso podem ser encontradas na próxima seção:
